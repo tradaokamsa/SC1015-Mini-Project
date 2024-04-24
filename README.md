@@ -70,9 +70,9 @@ Throughout this project, we have gained insights into:
 - The strengths and limitations of various machine learning algorithms in handling educational data.
 
 ## Contributors
-- Hoang Phong (@hoangphong111213)
-- Dao Hai Nam @tradaokamsa
-- Syed Abu Thahir (@SyedAbu101)
+- [Dao Hai Nam](https://github.com/tradaokamsa): Random Forest Classifier, Gradient Boosting Classifier, KNN, SVN, Logistic Regression, One-hot Encoding.
+- [Syed Abu Thahir](https://github.com/SyedAbu101): Data Cleaning, Data Combining, Video Presentation Slides, Exploratory Data Analysis, Oversampling.
+- [Hoang Phong](https://github.com/hoangphong111213): README.file, Decision Tree Classifier, Understanding Dataset, Handling Outliners.
 
 ## References
 - [Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
