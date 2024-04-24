@@ -1,8 +1,5 @@
 # SC1015 Mini Project: Students' Performance Analysis
 
-## Introduction
-This project focuses on analyzing students' performance using data from a learning management system (LMS). By leveraging machine learning algorithms, we aim to predict students' academic performance levels, which are crucial for implementing targeted educational strategies.
-
 ## Problem Definition
 Using the educational dataset collected from the learning management system (LMS), we aim to develop a machine learning model that predicts the academic performance levels of students based on their demographic, academic background, and behavioral features. The performance levels are categorized as Fail, Satisfied, Good, Very Good and Excellent, corresponding to specific grade/mark intervals.
 
