@@ -1,7 +1,7 @@
 # SC1015 Mini Project: Students' Performance Analysis
 
 ## Problem Definition
-Using the educational dataset collected from the learning management system (LMS), we aim to develop a machine learning model that predicts the academic performance levels of students based on their demographic, academic background, and behavioral features. The performance levels are categorized as Fail, Satisfied, Good, Very Good and Excellent, corresponding to specific grade/mark intervals.
+Using the educational dataset collected from two Portuguese schools by school reports and questionare, we aim to develop a machine learning model that predicts the academic performance levels of students based on their demographic, academic background, and behavioral features. The performance levels are categorized as Fail, Satisfied, Good, Very Good and Excellent, corresponding to specific grade/mark intervals.
 
 ## Motivation
 The motivation behind predicting student academic performance levels lies in the desire to improve educational outcomes and support student success. By accurately identifying factors that contribute to student performance, educational institutions can implement targeted interventions and support systems to enhance learning experiences and outcomes for students.
