@@ -68,6 +68,7 @@ Throughout this project, we have gained insights into:
 - The critical role of data preprocessing and feature engineering in enhancing model performance.
 - Learning how to use different and new machine learning models, such as Random Forest Classifier, KNN Classifier,... to predict variables.
 - The strengths and limitations of various machine learning algorithms in handling educational data.
+- Collaborating using GitHub.
 
 ## Contributors
 - [Dao Hai Nam](https://github.com/tradaokamsa): Random Forest Classifier, Gradient Boosting Classifier, KNN, SVN, Logistic Regression, One-hot Encoding.
