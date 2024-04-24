@@ -71,7 +71,7 @@ Throughout this project, we have gained insights into:
 
 ## Contributors
 - Hoang Phong (@hoangphong111213)
-- Dao Hai Nam (@tradaokamsa)
+- Dao Hai Nam <tradaokamsa>
 - Syed Abu Thahir (@SyedAbu101)
 
 ## References
@@ -81,5 +81,5 @@ Throughout this project, we have gained insights into:
 - [KNN Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 - [SVM Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
 - [Logistic Regression Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-- [Cortez,Paulo. (2014). Student Performance. UCI Machine Learning Repository.](https://doi.org/10.24432/C5TG7T.)
+- [Cortez,Paulo. (2014). Student Performance. UCI Machine Learning Repository.](https://archive.ics.uci.edu/dataset/320/student+performance)
 
