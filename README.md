@@ -70,9 +70,9 @@ Throughout this project, we have gained insights into:
 - The strengths and limitations of various machine learning algorithms in handling educational data.
 
 ## Contributors
-- Hoang Phong ()
-- Dao Hai Nam ()
-- Syed Abu Thahir ()
+- Hoang Phong (@hoangphong111213)
+- Dao Hai Nam (@tradaokamsa)
+- Syed Abu Thahir (@SyedAbu101)
 
 ## References
 - [Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
@@ -81,6 +81,5 @@ Throughout this project, we have gained insights into:
 - [KNN Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
 - [SVM Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
 - [Logistic Regression Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-- https://archive.ics.uci.edu/dataset/320/student+performance
-
+- [Cortez,Paulo. (2014). Student Performance. UCI Machine Learning Repository.](https://doi.org/10.24432/C5TG7T.)
 
