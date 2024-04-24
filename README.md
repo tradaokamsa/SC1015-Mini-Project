@@ -12,6 +12,14 @@ The motivation behind predicting student academic performance levels lies in the
 ## Dataset
 The dataset used in this project is sourced from the UCI Machine Learning Repository and is accessible [here](https://archive.ics.uci.edu/dataset/320/student+performance).
 
+## Models Used
+- Random Forest Classifier
+- Decision Tree Classifier
+- Gradient Boosting Classifier
+- KNN Classifier
+- SVM Classifier
+- Logistic Regression Classifier
+
 ## Brief Process Walkthrough (In Order)
 1. **Data Cleaning and Preprocessing**:
    - Handling missing values, duplicates, and outliers.
@@ -22,22 +30,22 @@ The dataset used in this project is sourced from the UCI Machine Learning Reposi
 
 3. **Model Training Attempts**:
    - **Attempt 1 (Baseline Models):**
-     - Initial models were trained using only demographic and behavioral data.
-     - **Decision Tree Classifier**: Average accuracy: 0.72
-     - **SVM Classifier**: Average accuracy: 0.43
-     - **KNN Classifier**: Average accuracy: 0.48
-     - **Logistic Regression Classifier**: Average accuracy: 0.45
-     - **Random Forest Classifier**: Average accuracy: 0.73
-     - **Gradient Boosting Classifier**: Average accuracy: 0.59
+     - Initial models were trained using only demographic and behavioral data, including: 'age', 'school', 'address', 'Medu', 'Fedu', 'studytime', 'failures', 'higher', 'freetime', 'goout', 'health', 'Dalc', 'Walc' and 'absences'.
+     - **Random Forest Classifier**: Average accuracy: 0.69
+     - **Decision Tree Classifier**: Average accuracy: 0.67
+     - **Gradient Boosting Classifier**: Average accuracy: 0.53
+     - **KNN Classifier**: Average accuracy: 0.45
+     - **SVM Classifier**: Average accuracy: 0.41
+     - **Logistic Regression Classifier**: Average accuracy: 0.41
    
    - **Attempt 2 (Enhanced Models with Historical Grades):**
      - Incorporated G1 and G2 grades as additional features to enhance model predictions.
-     - **Decision Tree Classifier**: Average accuracy: 0.89
+     - **Random Forest Classifier**: Average accuracy: 0.88
+     - **Decision Tree Classifier**: Average accuracy: 0.86
+     - **Gradient Boosting Classifier**: Average accuracy: 0.83
      - **SVM Classifier**: Average accuracy: 0.76
-     - **KNN Classifier**: Average accuracy: 0.77
-     - **Logistic Regression Classifier**: Average accuracy: 0.77
-     - **Random Forest Classifier**: Average accuracy: 0.89
-     - **Gradient Boosting Classifier**: Average accuracy: 0.87
+     - **Logistic Regression Classifier**: Average accuracy: 0.75
+     - **KNN Classifier**: Average accuracy: 0.72
 
 4. **Results Analysis**:
    - Enhanced models with G1 and G2 grades demonstrated superior predictive abilities, confirming the hypothesis that past academic performance is indicative of future outcomes.
@@ -48,9 +56,10 @@ The dataset used in this project is sourced from the UCI Machine Learning Reposi
 Our exploration into predicting students' academic performance revealed several key insights:
 - Initially, models that only utilized demographic and behavioral data provided a baseline for performance prediction. However, these models alone were not highly predictive of the students' final grades.
 - The inclusion of past performance data (G1 and G2 grades) significantly enhanced the accuracy of our predictive models. This suggests that students' earlier performance is a critical indicator of their final outcomes, emphasizing the importance of continuous assessment.
-- We observed a remarkable improvement across all models when incorporating historical grades (G1 and G2). The Random Forest Classifier and Decision Tree Classifier stood out, both reaching an impressive accuracy of 0.89 in the enhanced setup, showing their capacity to effectively utilize the additional data. The Gradient Boosting Classifier also performed well, with an accuracy increase to 0.87, underscoring its robustness and suitability for handling the nuanced patterns in educational data. Other models such as the SVM, KNN, and Logistic Regression also showed notable improvements, highlighting the importance of comprehensive feature inclusion for predictive accuracy in educational settings.
+- We observed a remarkable improvement across all models when incorporating historical grades (G1 and G2). The Random Forest Classifier stood out, leading with an impressive accuracy of around 0.88 in the enhanced setup, showing its capacity to effectively utilize the additional data. The Decision Tree Classifier also performed well, with an accuracy increase to 0.86, underscoring its robustness and suitability for handling the nuanced patterns in educational data. Other models such as the SVM, KNN, Gradient Boosting and Logistic Regression also showed notable improvements, highlighting the importance of comprehensive feature inclusion for predictive accuracy in educational settings.
 - The study underscores the utility of more complex models that can capture nonlinear relationships and interactions between features when predicting student performance.
 - Based on these findings, educational institutions should consider implementing systems that regularly monitor and analyze students' performance throughout the academic year. This continuous assessment can provide valuable early warnings and insights, enabling targeted interventions to support students who may be at risk of underperforming.
+- The model not only showed the effect of past test results on the final score which is quite obvious but also the importance of health, free time and going out. This shows that educational institutions should be mindful of the physical as well as mental health of the students. Students should be given enough breaks and schools maybe can arrange a retreat with the students to improve their mental health. This will not only improve the wellbeing of the student but also their final grades. 
 
 These conclusions highlight the potential of machine learning in educational settings, demonstrating its capability to provide actionable insights that can lead to improved educational strategies and student outcomes.
 
@@ -61,6 +70,17 @@ Throughout this project, we have gained insights into:
 - The strengths and limitations of various machine learning algorithms in handling educational data.
 
 ## Contributors
-- Hoang Phong
-- Dao Hai Nam
-- Syed Abu Thahir
+- Hoang Phong ()
+- Dao Hai Nam ()
+- Syed Abu Thahir ()
+
+## References
+- [Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+- [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+- [Gradient Boosting Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
+- [KNN Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+- [SVM Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+- [Logistic Regression Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+- https://archive.ics.uci.edu/dataset/320/student+performance
+
+
