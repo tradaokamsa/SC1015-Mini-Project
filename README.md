@@ -69,7 +69,7 @@ Throughout this project, we have gained insights into:
 
 ## Contributors
 - [Dao Hai Nam](https://github.com/tradaokamsa): Random Forest Classifier, Gradient Boosting Classifier, KNN, SVN, Logistic Regression, One-hot Encoding.
-- [Syed Abu Thahir](https://github.com/SyedAbu101): Data Cleaning, Data Combining, Video Presentation Slides, Exploratory Data Analysis, Oversampling.
+- [Syed Abu Thahir](https://github.com/SyedAbu101): Balancing Imbalanced Classes , Data Combining, Video Presentation Slides, Exploratory Data Analysis, Oversampling.
 - [Hoang Phong](https://github.com/hoangphong111213): README File, Decision Tree Classifier, Understanding Dataset, Handling Outliners.
 
 ## References
