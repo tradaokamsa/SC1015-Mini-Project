@@ -71,7 +71,7 @@ Throughout this project, we have gained insights into:
 
 ## Contributors
 - Hoang Phong (@hoangphong111213)
-- Dao Hai Nam <tradaokamsa>
+- Dao Hai Nam @tradaokamsa
 - Syed Abu Thahir (@SyedAbu101)
 
 ## References
